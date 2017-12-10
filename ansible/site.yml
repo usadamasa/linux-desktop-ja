@@ -1,6 +1,6 @@
 ---
 
-- include: bootstrap.yml
-- include: develop.yml
-- include: extra.yml
-- include: desktop.yml
+- import_playbook: bootstrap.yml
+- import_playbook: develop.yml
+- import_playbook: extra.yml
+- import_playbook: desktop.yml
